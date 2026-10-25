@@ -1,0 +1,28 @@
+name: Refresh public profile stats
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch public GitHub statistics
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 refresh_profile.py
+      - name: Save refreshed panels
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mission-stats.svg profile-snapshot.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Refresh public profile statistics"
+            git push
+          fi
