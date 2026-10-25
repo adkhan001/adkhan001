@@ -1,48 +1,63 @@
 <p align="center">
-  <img src="hero.gif" width="100%" alt="Allah Ditta — web, mobile and AI developer. A luminous code crystal surrounded by orbiting symbols in a midnight-blue realm." />
+  <img src="cinematic-hero.png" width="100%" alt="Allah Ditta — Ideas into other worlds. Web, mobile and AI. A developer overlooking a moonlit fantasy world." />
 </p>
 
 <p align="center">
-  <strong>Useful software. Thoughtful interfaces. A spark of imagination.</strong><br />
-  I’m Allah Ditta, a Computer Science student building across web, mobile, and AI.
+  <a href="https://github.com/adkhan001?tab=repositories"><strong>EXPLORE MY WORK</strong></a>
+  &nbsp; ✦ &nbsp;
+  <a href="#selected-missions"><strong>SELECTED MISSIONS</strong></a>
+  &nbsp; ✦ &nbsp;
+  <a href="#behind-the-builds"><strong>BEHIND THE BUILDS</strong></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/adkhan001?tab=repositories">Explore my repositories</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/adkhan001/technest-store">Featured project</a>
-</p>
+<img src="flight-deck.svg" width="100%" alt="Developer flight deck. Learn, build, refine. Animated spacecraft and pulsing signals." />
 
-<img src="terminal.svg" width="100%" alt="Developer configuration: Allah Ditta. Focus: web, mobile, AI. Approach: learn, build, refine. Ambition: make useful things feel extraordinary." />
+<img src="mission-stats.svg" width="100%" alt="Public GitHub statistics and contribution calendar, with the last refresh date shown in the panel." />
 
-### Building with purpose
+### Selected missions
 
-I enjoy taking an idea from an early sketch to a working product—connecting the interface, application logic, and data into something people can use.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/adkhan001/technest-store"><img src="project-technest.png" width="100%" alt="TechNest — a cosmic storefront illustration" /></a>
+<h3>01 · TechNest</h3>
+<p>An online store project, connecting a product catalogue with a shopping experience.</p>
+<p><code>WEB DEVELOPMENT</code> <code>HTML</code></p>
+<a href="https://github.com/adkhan001/technest-store"><strong>Explore repository →</strong></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/adkhan001/Rock-Paper-Scissors-CNN"><img src="project-neural.png" width="100%" alt="Rock Paper Scissors CNN — three holographic hand gestures over a neural processor" /></a>
+<h3>02 · Neural Gestures</h3>
+<p>A convolutional neural network for classifying rock, paper, and scissors hand gestures.</p>
+<p><code>TENSORFLOW</code> <code>KERAS</code> <code>CNN</code></p>
+<a href="https://github.com/adkhan001/Rock-Paper-Scissors-CNN"><strong>Explore repository →</strong></a>
+</td>
+</tr>
+</table>
 
-- **Web:** clear interfaces and practical applications.
-- **Mobile:** turning everyday workflows into app experiences.
-- **AI:** exploring machine learning through hands-on projects.
+<img src="developer-arsenal.svg" width="100%" alt="Developer toolkit: React, Next.js, Android development, Python, TensorFlow, FastAPI, SQL, Git and GitHub." />
 
-<img src="toolkit.svg" width="100%" alt="Toolkit: React, Next.js, Android development, Python, TensorFlow, machine learning, FastAPI, SQL, Git and GitHub." />
+### Behind the builds
 
-<a href="https://github.com/adkhan001/technest-store"><img src="technest.svg" width="100%" alt="Featured build: TechNest online store. Click to explore the source repository." /></a>
-
-<details>
-<summary><strong>Open the developer’s field notes</strong></summary>
+I’m **Allah Ditta**, a Computer Science student exploring the space between useful software and imaginative experiences. I build across **web, mobile, and AI**, learning by turning ideas into working projects.
 
 ```typescript
-while (curiosity) {
-  const idea = explore();
-  const prototype = build(idea);
-  learnFrom(prototype);
-  refine();
-}
+const mission = {
+  imagine: "Start with a real problem.",
+  build:   "Make the first version work.",
+  refine:  "Make the experience worth returning to."
+};
 ```
 
-Good software starts with a real problem. The interesting part is finding a clear, useful way to solve it.
+<details>
+<summary><strong>Open the mission log</strong></summary>
+
+- I like interfaces that are clear, responsive, and considered.
+- I explore machine learning through hands-on experiments.
+- I use each project to strengthen the connection between design, code, and real use.
+
+The illustrated project covers are concept art; source code is linked on each card. Statistics reflect public GitHub data and show their refresh date. GitHub controls the surrounding page layout and theme.
 
 </details>
 
----
-
-<p align="center"><sub>IMAGINATION → CODE → SOMETHING REAL</sub><br /><strong>Thanks for stepping into my corner of GitHub.</strong></p>
+<img src="end-transmission.svg" width="100%" alt="End of transmission. The next idea is already loading." />
